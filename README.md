@@ -491,6 +491,31 @@ Please refer to [File permissions and attributes](https://wiki.archlinux.org/ind
 
 `wc -m {{file}}`
 
+#### diff
+
+> Compare files and directories.
+
+- Compare files:
+
+`diff {{file1}} {{file2}}`
+
+- Compare files, ignoring white spaces:
+
+`diff -w {{file1}} {{file2}}`
+
+- Compare files, showing differences side by side:
+
+`diff -y {{file1}} {{file2}}`
+
+- Compare directories recursively:
+
+`diff -r {{directory1}} {{directory2}}`
+
+- Compare directories, only showing the names of files that differ:
+
+`diff -rq {{directory1}} {{directory2}}`
+
+
 #### grep (more advanced)
 
 > Matches patterns in input text.
@@ -783,3 +808,41 @@ logout. We can use `screen` to let a job continue to run on the server.
 
 ## bash scripting
 Please refer to [Wikibooks](https://en.wikibooks.org/wiki/Bash_Shell_Scripting).
+
+## Using Vi IMproved (vim, an editor)
+#### vim
+
+> Vi IMproved, a programmer's text editor, providing several modes for different kinds of text manipulation.
+> Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
+
+- Open a file:
+
+`vim {{file}}`
+
+- Enter text editing mode (insert mode):
+
+`<Esc>i`
+
+- Copy ("yank") or cut ("delete") the current line (paste it with `P`):
+
+`<Esc>{{yy|dd}}`
+
+- Undo the last operation:
+
+`<Esc>u`
+
+- Search for a pattern in the file (press `n`/`N` to go to next/previous match):
+
+`<Esc>/{{search_pattern}}<Enter>`
+
+- Perform a regex substitution in the whole file:
+
+`<Esc>:%s/{{pattern}}/{{replacement}}/g<Enter>`
+
+- Save (write) the file, and quit:
+
+`<Esc>:wq<Enter>`
+
+- Quit without saving:
+
+`<Esc>:q!<Enter>`
