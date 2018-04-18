@@ -636,7 +636,7 @@ the info as well as the process IDs of the processes running on the system.
 `ps -o ppid= -p {{pid}}`
 
 ### Controlling a process
-#### `ctrl c`
+#### `<ctrl> c`
 Kill a process running in the foreground. (It is possible that `<ctrl> c` is not
 able to kill a process, especially the process is not a core utility.)
 
