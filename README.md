@@ -492,7 +492,6 @@ Please refer to [File permissions and attributes](https://wiki.archlinux.org/ind
 `wc -m {{file}}`
 
 #### grep (more advanced)
-# grep
 
 > Matches patterns in input text.
 > Supports simple patterns and regular expressions.
