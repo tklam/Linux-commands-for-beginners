@@ -436,11 +436,11 @@ Please refer to [File permissions and attributes](https://wiki.archlinux.org/ind
 
 `tail -c {{num}} {{file}}`
 
-- Keep reading file until `Ctrl + C`:
+- Keep reading file until `<ctrl> c`:
 
 `tail -f {{file}}`
 
-- Keep reading file until `Ctrl + C`, even if the file is rotated:
+- Keep reading file until `<ctrl> c`, even if the file is rotated:
 
 `tail -F {{file}}`
 
@@ -636,7 +636,7 @@ the info as well as the process IDs of the processes running on the system.
 `ps -o ppid= -p {{pid}}`
 
 ### Controlling a process
-#### <ctrl> c
+#### `ctrl c`
 Kill a process running in the foreground. (It is possible that `<ctrl> c` is not
 able to kill a process, especially the process is not a core utility.)
 
@@ -727,12 +727,12 @@ able to kill a process, especially the process is not a core utility.)
 Start a job in the background.
 
 
-#### <ctrl> z
+#### `<ctrl> z`
 Suspend a job.
 
 #### bg
 
-> Resumes jobs that have been suspended (e.g. using `Ctrl + Z`), and keeps them
+> Resumes jobs that have been suspended (e.g. using `<ctrl>  z`), and keeps them
 > running in the background.
 
 - Resume most recently suspended job and run it in the background:
