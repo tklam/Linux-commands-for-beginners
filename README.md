@@ -819,7 +819,7 @@ Please refer to [Wikibooks](https://en.wikibooks.org/wiki/Bash_Shell_Scripting).
 > kinds of text manipulation. Pressing `i` enters edit mode. `<Esc>` goes back
 > to normal mode, which doesn't allow regular text insertion.
 >
-> If you are in the normal mode, you do not need to press the preceding <Esc> in
+> If you are in the normal mode, you do not need to press the preceding `<Esc>` in
 > the following commands.
 
 - Open a file:
