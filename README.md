@@ -806,7 +806,7 @@ logout. We can use `screen` to let a job continue to run on the server.
 
 `<ctrl>  a d`
 
-## bash scripting
+## bash scripting (more advanced)
 Please refer to [Wikibooks](https://en.wikibooks.org/wiki/Bash_Shell_Scripting).
 
 ## Using Vi IMproved (vim, an editor)
