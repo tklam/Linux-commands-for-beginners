@@ -815,8 +815,12 @@ Please refer to [Wikibooks](https://en.wikibooks.org/wiki/Bash_Shell_Scripting).
 ## Using Vi IMproved (vim, an editor)
 #### vim
 
-> Vi IMproved, a programmer's text editor, providing several modes for different kinds of text manipulation.
-> Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
+> Vi IMproved, a programmer's text editor, providing several modes for different
+> kinds of text manipulation. Pressing `i` enters edit mode. `<Esc>` goes back
+> to normal mode, which doesn't allow regular text insertion.
+>
+> If you are in the normal mode, you do not need to press the preceding <Esc> in
+> the following commands.
 
 - Open a file:
 
@@ -849,6 +853,14 @@ Please refer to [Wikibooks](https://en.wikibooks.org/wiki/Bash_Shell_Scripting).
 - Quit without saving:
 
 `<Esc>:q!<Enter>`
+
+- Indent a block:
+
+`<Esc>>aB`
+
+- Repeat last command:
+
+`<Esc>.`
 
 You may want to play these games:
 - [Vim RPG game (need money for later levels)](https://vim-adventures.com/)
