@@ -846,3 +846,7 @@ Please refer to [Wikibooks](https://en.wikibooks.org/wiki/Bash_Shell_Scripting).
 - Quit without saving:
 
 `<Esc>:q!<Enter>`
+
+You may want to play these games:
+- [Vim RPG game (need money for later levels)](https://vim-adventures.com/)
+- run `vimtutor` in shell
