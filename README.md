@@ -51,8 +51,11 @@ shells available to choose from. One of the most popular shell nowadays is calle
 - Delete the rest of the command line from the cursor:
 `<ctrl> k`
 
-- Delete until the beginning of the next word:
+- Delete until the end of the current word:
 `<alt> d`
+
+- Delete from the cursor until the beginning of the current word:
+`<ctrl> w`
 
 ### Getting information about a command
 #### man
