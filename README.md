@@ -780,3 +780,6 @@ logout. We can use `screen` to let a job continue to run on the server.
 - Detach from inside a screen:
 
 `<ctrl>  a d`
+
+## bash scripting
+Please refer to [Wikibooks](https://en.wikibooks.org/wiki/Bash_Shell_Scripting).
