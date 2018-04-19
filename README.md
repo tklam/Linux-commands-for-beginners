@@ -79,7 +79,7 @@ shells available to choose from. One of the most popular shell nowadays is calle
 `man -k {{keyword}}`
 
 ### Redirection (more advanced)
-Please refer to [Redirection](ttps://en.wikipedia.org/wiki/Redirection_(computing))
+Please refer to [Redirection](https://en.wikipedia.org/wiki/Redirection_(computing))
 
 Every command/program has 3 *streams*:
 
